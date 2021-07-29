@@ -1,0 +1,151 @@
+body, ul, li, p {
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    background-color: rgb(247, 247, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+#adote {
+    font-size: 40px;
+    color: rgb(187, 0, 187);
+    font-weight: 600;
+    font-family: 'Satisfy', cursive;
+}
+
+#adote:hover {
+    color: rgb(255, 0, 255);
+    transition: 400ms;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+.menu li a:hover {
+    color: rgb(212, 0, 212);
+    background-color: black;
+    border-radius: 10px;
+    font-size: 25px;
+    transition: 400ms;
+}
+.main {
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+.column {
+    height: 80vh;
+    width: 60vw;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.col1 {
+    background-color: red;
+}
+
+.col2 {
+    background-color: green;
+}
+
+.col3 {
+    background-color: yellow;
+}
+
+.col4 {
+    background-color: blue;
+}
+
+.dog {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 80%;
+    height: 9.5vw;
+    margin: 9px;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        display: flex;
+        align-items: center;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu li a:hover {
+        color: rgb(212, 0, 212);
+        background-color: black;
+        border-radius: 10px;
+        font-size: 25px;
+        transition: 400ms;
+    }
+
+    .main {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .column {
+        height: 70vh;
+        width: 90%;
+        margin: 20px;
+        border-radius: 10px;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    img {
+        width: 80%;
+        height: 95px;
+        margin: 9px;
+    }
+}
