@@ -3,7 +3,11 @@ body, ul, li, p {
     padding: 0%;
     list-style: none;
     font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Abril Fatface', cursive;
+}
+
+body {
+    background-color: #f9c16a;
 }
 
 a {
@@ -17,26 +21,34 @@ a {
 }
 
 .header {
-    background-color: rgb(247, 247, 1);
+    background-color: #432f30;
     display: flex;
+    background-color: #432f30;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-end;
+    padding: 15px;
     margin: 15px;
     border-radius: 20px;
 }
 
-#adote {
-    font-size: 40px;
-    color: rgb(187, 0, 187);
-    font-weight: 600;
-    font-family: 'Satisfy', cursive;
+.fofura {
+    height: 105px;
+    width: 105px;
 }
 
-#adote:hover {
-    color: rgb(255, 0, 255);
-    transition: 400ms;
+#adote {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
 }
 
 .menu {
@@ -48,12 +60,14 @@ a {
 }
 
 .menu li a {
-    display: block;
-    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 15px;
 }
 
 .menu li a:hover {
-    color: rgb(212, 0, 212);
+    color: #d5823c;
     background-color: black;
     border-radius: 10px;
     font-size: 25px;
@@ -66,27 +80,11 @@ a {
 }
 
 .column {
-    height: 80vh;
-    width: 60vw;
+    height: 60vh;
+    width: 70vw;
     margin: 30px;
     border-radius: 10px;
     text-align: center;
-}
-
-.col1 {
-    background-color: red;
-}
-
-.col2 {
-    background-color: green;
-}
-
-.col3 {
-    background-color: yellow;
-}
-
-.col4 {
-    background-color: blue;
 }
 
 .dog {
@@ -94,12 +92,13 @@ a {
     justify-content: center;
 }
 
+
 img {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    width: 80%;
-    height: 9.5vw;
+    width: 100%;
+    height: 20vw;
     margin: 9px;
 }
 
