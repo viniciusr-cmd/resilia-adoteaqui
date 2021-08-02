@@ -1,57 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet">
 
-    <title>AdoteAqui!</title>
+    <title>AdoteAqui! - Focinho Feliz</title>
 </head>
 <body>
-    <header class="header flex">
-            <a href="#" id="adote">Focinho<img class="fofura" src="imagens/Pngtreedog_cat_pet_shovel_officer_3934436.png" alt=""> Feliz</a>
-       <nav class="nav">
-            <ul class="menu">
-                <li><a href="/">Home</a></li>
-                <li><a href="/">Sobre</a></li>
-                <li><a href="/">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                <p>Focinho Feliz</p>
+                <img class="doguinho" src="imagens/Pngtreedog_cat_pet_shovel_officer_3934436.png" alt="">
+                </div>
+                <ul>
+                    <li><a class="link" href="#">Inicio</a></li>
+                    <li><a class="link bgcBranco" href="#">Adoção</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main class="main flex">
-        <div class="col1 column">
-            <div class="dog"><img src="imagens/Cachorro1.jpg" alt=""></div>
-            <div class="dog"><img src="imagens/Cachorro2.jpg" alt=""></div>
-            <div class="dog"><img src="imagens/Cachorro3.jpg" alt=""></div>
-            <div class="dog"><img src="imagens/Cachorro4.jpg" alt=""></div>
-        </div>
-        <div class="col2 column">
-            <div class="dog"><img src="imagens/Cachorro5.jpg" alt=""></div>
-            <div class="dog"><img src="imagens/Cachorro6.jpg" alt=""></div>
-            <div class="dog"><img src="imagens/Cachorro7.jpg" alt=""></div>
-            <div class="dog"><img src="imagens/Cachorro8.jpg" alt=""></div>
-        </div>
-        <div class="col3 column">
-            <div class="dog"><img src="imagens/Cachorro9.jpeg" alt=""></div>
-            <div class="dog"><img src="imagens/Cachorro10.jpeg" alt=""></div>
-            <div class="dog"><img src="imagens/Cachorro11.jpeg" alt=""></div>
-            <div class="dog"><img src="imagens/Gato1.jpeg" alt=""></div>
-        </div>
-        <div class="col4 column">
-            <div class="dog"><img src="imagens/Gato2.jpg" alt=""></div>
-            <div class="dog"><img src="imagens/Gato3.jpg" alt=""></div>
-            <div class="dog"><img src="imagens/Cachorro3.jpg" alt=""></div>
-            <div class="dog"><img src="imagens/Cachorro2.jpg" alt=""></div>
-        </div>
-    </main>
+        <main>
+            <section class="homepage">
+                <div>
+                    <h1 class="title">Mude vidas, adote!</h1>
+                    <p class="text">Você não vai mudar o mundo adotando um animalzinho, mas vai mudar o mundo dele.</p>
+                <a href="#adocao"><button class="btn" type="button">Adotar</button></a>
+                </div>
+            </section>
 
-    <footer>
-        <p>lulu eu te amo</p>
-    </footer>
+            <section id="adocao" class="second">
+            <div class="subtitulo">
+                <h1>Adoção</h1>
+            </div>
+            <div class="columns">
+                <div class="div1">
+                    <img src="imagens/Cachorro1.jpg" alt=""> Bob
+                    <img src="imagens/Cachorro2.jpg" alt=""> Richter
+                    <img src="imagens/Cachorro3.jpg" alt=""> Shaft
+                    <img src="imagens/Cachorro4.jpg" alt=""> Puggy
+                </div>
+                <div class="div2">
+                    <img src="imagens/Cachorro5.jpg" alt=""> Coffee
+                    <img src="imagens/Cachorro6.jpg" alt=""> Loop
+                    <img src="imagens/Cachorro7.jpg" alt=""> Bronz
+                    <img src="imagens/Cachorro8.jpg" alt=""> Rockruff
+                </div>
+                <div class="div3">
+                    <img src="imagens/Cachorro9.jpeg" alt=""> Poppy
+                    <img src="imagens/Cachorro10.jpeg" alt=""> Goldie
+                    <img src="imagens/Cachorro11.jpeg" alt=""> Lyra
+                    <img src="imagens/Gato1.jpeg" alt=""> Silver
+                </div>
+                <div class="div4">
+                    <img src="https://cdn.discordapp.com/attachments/788480442146750517/871815051491835904/brown-tabby-kitten-beside-green-apple-fruit.jpg" alt=""> Purrloin
+                    <img src="https://cdn.discordapp.com/attachments/788480442146750517/871815053089833020/e1c7c562bfb2f7c450a191b61809d057.webp" alt=""> Glameow
+                    <img src="https://cdn.discordapp.com/attachments/788480442146750517/871815055908429967/fed14861-2691-4005-8a98-4b807bd6ded4_tablet.png" alt=""> Cyrus
+                    <img src="https://cdn.discordapp.com/attachments/788480442146750517/871815218106339378/oijplh9y7hf31.jpg" alt=""> May
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Todos os direitos reservados. <span>Resilia ©2021</span></p>
+            <p>Feito com propósitos educacionais</p>
+            <p>Com ❤️ por Vinicius Ribeiro Soares</p>
+        </footer>
+    </div>
 </body>
 </html>
